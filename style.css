@@ -1,0 +1,60 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body {
+    margin: 100px auto;
+    max-width: 750px;
+  }
+  h1 {
+    margin: 0px;
+    text-align: center;
+    height: 40px;
+  }
+  p {
+    text-align: center;
+    color: #999;
+  }
+  img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 4px solid white;
+  }
+  .box {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    height: 440px;
+    border-radius: 5px;
+  }
+  .mitte {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    margin-top: 70px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  #titel {height: 20px;}
+  .iconleiste {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0 24px 0;
+    font-size: 32px;
+  }
+  .iconleiste span, a {
+    text-decoration: none;
+    color: grey;
+    opacity: 1;
+    transition: 0.4s;
+  }
+  .iconleiste span:hover, a:hover {
+    color: green;
+    cursor: pointer;
+    opacity: 0.4;
+  }
+  .fussnote {
+    font-size: 70%;
+  }
